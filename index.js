@@ -28,7 +28,7 @@ function viewCart() {
     return msg
   }  else 
       for (var i = 0; i < cart.length; i +=1)
-       return msg + ', and ' + msg
+       return msg + (', and ') + msg
       
     
 }
