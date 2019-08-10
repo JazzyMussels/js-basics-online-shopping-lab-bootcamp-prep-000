@@ -21,7 +21,8 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  for (var i = 0; i < cart.length; i +=1)
+  return(`In your cart, you have ${cart at $17, pancake batter at $5, and eggs at $49.`)
 }
 
 function total() {
