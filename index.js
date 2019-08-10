@@ -26,8 +26,10 @@ function viewCart() {
   } else if  (cart.length === 1) {
     return(`In your cart, you have ${cart[i]['itemName']} at $${cart[i]['itemPrice']}.`)
   }  else 
+    var msg = 'In your cart, you have '
+    
       for (var i = 0; i < cart.length; i +=1)
-       return(`In your cart, you have ${cart[i]['itemName']} at $${cart[i]['itemPrice']}.`)
+       return( msg + `${cart[i]['itemName']} at $${cart[i]['itemPrice']}.`)
       
     
 }
