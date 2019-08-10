@@ -42,7 +42,7 @@ function viewCart() {
 }
 
 function total() {
-  for (var i = 0; i <= cart.length; i +=1 ) {
+  for (var i = 0; i < cart.length; i +=1 ) {
     var counter = 0 
   counter = cart[i]['itemPrice'] 
   }
