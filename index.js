@@ -37,7 +37,7 @@ function viewCart() {
             msg = msg + ', '
            }
          }
-      }
+    
       return msg
     
 }
