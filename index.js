@@ -15,7 +15,7 @@ function getRandomArbitrary(min, max) {
 
 function addToCart(item) {
  var items = {itemName: item, itemPrice: getRandomArbitrary(1, 100)}
-  cart.push(items)
+  cart = [items]
   return (`${item} has been added to your cart.`)
 
 }
