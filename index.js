@@ -29,7 +29,7 @@ function viewCart() {
   var msg = `In your cart, you have `
       for (var i = 0; i < cart.length; i +=1)
        msg = msg + `${cart[i]['itemName']} at ${cart[i]['itemPrice']}, and `
-      
+      return msg
     
 }
 
