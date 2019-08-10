@@ -31,8 +31,11 @@ function viewCart() {
        msg = msg + `${cart[i]['itemName']} at $${cart[i]['itemPrice']}`
           if (i + 1 === cart.length) {
             msg = msg + '.'
-         } else {
+         } else if (i + 1 === cart.length - 1){
             msg = msg + ', and '
+           } else {
+            msg = msg + ', '
+           }
          }
       }
       return msg
