@@ -23,6 +23,7 @@ function addToCart(item) {
 function viewCart() {
   if (cart.length === 0)
     return 'Your shopping cart is empty.'
+  else
   for (var i = 0; i < cart.length; i +=1)
   return(`In your cart, you have ${cart[i]} at ${, pancake batter at $5, and eggs at $49.`)
 }
