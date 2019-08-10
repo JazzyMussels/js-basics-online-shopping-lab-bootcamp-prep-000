@@ -27,13 +27,14 @@ function viewCart() {
     return (`In your cart, you have ${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`)
   }  else 
   var msg = `In your cart, you have `
-      for (var i = 0; i < cart.length; i +=1)
+      for (var i = 0; i < cart.length; i +=1) {
        msg = msg + `${cart[i]['itemName']} at ${cart[i]['itemPrice']}`
           if (i + 1 === cart.length) {
             msg = msg + '.'
          } else {
             msg = msg + ', and '
          }
+      }
       return msg
     
 }
