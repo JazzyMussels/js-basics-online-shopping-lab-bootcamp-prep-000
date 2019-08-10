@@ -21,8 +21,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  if (cart.length === 0)
+    return ''
   for (var i = 0; i < cart.length; i +=1)
-  return(`In your cart, you have ${cart at $17, pancake batter at $5, and eggs at $49.`)
+  return(`In your cart, you have ${cart[i]} at ${, pancake batter at $5, and eggs at $49.`)
 }
 
 function total() {
